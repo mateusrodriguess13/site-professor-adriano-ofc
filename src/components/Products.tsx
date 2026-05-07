@@ -8,67 +8,67 @@ const products = [
     benefit: 'Domine sua produtividade e alcance o próximo nível de resultados.',
     url: 'https://pay.hotmart.com/E104288974O?bid=1777995055206',
     popular: true,
-    image: '/imagens/capaescoladealtaperformance.png'
+    image: '/capaescoladealtaperformance.png'
   },
   {
     title: 'Exaustão Mental: Como Vencer o Cansaço da Alma',
     benefit: 'Recupere sua energia vitale encontre paz mental no meio do caos.',
     url: 'https://pay.hotmart.com/K103974973W?bid=1777995079996',
-    image: '/imagens/capaexaustaomental.png'
+    image: '/capaexaustaomental.png'
   },
   {
     title: 'Manual para Mentes Inabaláveis',
     benefit: 'Ferramentas práticas para blindar sua mente contra a ansiedade.',
     url: 'https://pay.hotmart.com/H103540485G?bid=1777995171627',
-    image: '/imagens/manualparamentesinabalaveis.png'
+    image: '/manualparamentesinabalaveis.png'
   },
   {
     title: 'O Poder da Autoconfiança',
     benefit: 'Acorde todos os dias com a certeza de que você é capaz de vencer.',
     url: 'https://pay.hotmart.com/N103541541Y?bid=1777995211138',
-    image: '/imagens/opoderdaautoconfianca.png'
+    image: '/opoderdaautoconfianca.png'
   },
   {
     title: 'Do Zero ao Sonho',
     benefit: 'Um mapa passo a passo para transformas suas ideias em realidade.',
     url: 'https://pay.hotmart.com/O104093531T?bid=1777995189017',
-    image: '/imagens/capadozeroaosonho.png'
+    image: '/capadozeroaosonho.png'
   },
   {
     title: 'A Assinatura Divina na Criação',
     benefit: 'Do Microcosmo até a Santa Trindade. Compreenda a criação de forma única.',
     url: 'https://pay.hotmart.com/A103540760S?bid=1777995125239',
-    image: '/imagens/assinaturadivinanacriacao.png'
+    image: '/assinaturadivinanacriacao.png'
   },
   {
     title: 'O Jeitinho Resiliente',
     benefit: 'Criatividade Brasileira Transforma Desafios em Oportunidades.',
     url: 'https://pay.hotmart.com/M103975108E?bid=1777995258205',
-    image: '/imagens/capaojeitinhoresiliente.png'
+    image: '/capaojeitinhoresiliente.png'
   },
   {
     title: 'O Poder da Verdade',
     benefit: 'A coragem de ser real e viver uma vida autêntica.',
     url: 'https://pay.hotmart.com/V103975180N?bid=1777995245597',
-    image: '/imagens/capaopoderdaverdade.png'
+    image: '/capaopoderdaverdade.png'
   },
   {
     title: 'Os 3 D\'s da Riqueza',
     benefit: 'Disciplina, Decisão e Direção para a Liberdade Financeira.',
     url: 'https://pay.hotmart.com/M103975294N?bid=1777995225186',
-    image: '/imagens/capaostresdsdariqueza.png'
+    image: '/capaostresdsdariqueza.png'
   },
   {
     title: 'O Maior Líder da História',
     benefit: 'Lições valiosas de liderança inspiradas em Jesus Cristo.',
     url: 'https://pay.hotmart.com/M103540635M?bid=1777995149418',
-    image: '/imagens/omaiorliderdahistoria.png'
+    image: '/omaiorliderdahistoria.png'
   },
   {
     title: 'O Tempo de Cada Sentimento',
     benefit: 'Entenda os ciclos das emoções e como lidar com cada fase.',
     url: 'https://pay.hotmart.com/R103540682X?bid=1777995096827',
-    image: '/imagens/otempodecadasentimento.png'
+    image: '/otempodecadasentimento.png'
   }
 ];
 
@@ -96,7 +96,7 @@ export const Products = () => {
               <div className={`mb-4 sm:mb-5 ${product.popular ? 'sm:mb-0 sm:w-1/3 flex-shrink-0' : 'w-full'} flex justify-center`}>
                 <div className={`relative w-full aspect-[2/3] max-w-[100px] sm:max-w-[120px] ${product.popular ? 'max-w-[120px] sm:max-w-[150px]' : ''} rounded-md overflow-hidden shadow-sm group-hover:shadow-md transition-shadow duration-300`}>
                   <img 
-                    src={product.image} 
+                    src={`${product.image}?v=1`} 
                     alt={`Capa do livro ${product.title}`}
                     className="w-full h-full object-cover"
                   />
