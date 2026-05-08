@@ -70,7 +70,7 @@ export const Hero = () => {
           <FadeIn delay={0.4} className="relative mx-auto w-full max-w-lg lg:max-w-none lg:h-full flex items-end justify-center lg:justify-end">
             <div className="relative flex items-end justify-center w-full h-[400px] sm:h-[500px] lg:h-[700px]">
                <img
-                src="/adriano.png"
+                src="/adriano-1.png"
                 alt="Adriano Santos"
                 className="absolute bottom-0 w-auto h-full max-h-full object-contain object-bottom drop-shadow-2xl z-10"
                 loading="eager"
