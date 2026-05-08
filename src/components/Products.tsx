@@ -96,7 +96,7 @@ export const Products = () => {
               <div className={`mb-4 sm:mb-5 ${product.popular ? 'sm:mb-0 sm:w-1/3 flex-shrink-0' : 'w-full'} flex justify-center`}>
                 <div className={`relative w-full aspect-[2/3] max-w-[100px] sm:max-w-[120px] ${product.popular ? 'max-w-[120px] sm:max-w-[150px]' : ''} rounded-md overflow-hidden shadow-sm group-hover:shadow-md transition-shadow duration-300`}>
                   <img 
-                    src={`${product.image}?v=1`} 
+                    src={product.image} 
                     alt={`Capa do livro ${product.title}`}
                     className="w-full h-full object-cover"
                   />
