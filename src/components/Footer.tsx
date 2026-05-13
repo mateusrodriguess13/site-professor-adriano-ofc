@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MessageCircle, Instagram, Youtube } from 'lucide-react';
+import { Instagram, Youtube } from 'lucide-react';
 
 const TikTokIcon = ({ className }: { className?: string }) => (
   <svg

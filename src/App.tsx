@@ -9,9 +9,7 @@ import { Products } from './components/Products';
 import { About } from './components/About';
 import { Mission } from './components/Mission';
 import { LeadCapture } from './components/LeadCapture';
-import { Community } from './components/Community';
 import { Footer } from './components/Footer';
-import { WhatsAppButton } from './components/WhatsAppButton';
 
 export default function App() {
   return (
@@ -23,10 +21,8 @@ export default function App() {
         <Products />
         <Mission />
         <LeadCapture />
-        <Community />
       </main>
       <Footer />
-      <WhatsAppButton />
     </div>
   );
 }
