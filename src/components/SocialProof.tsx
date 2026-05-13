@@ -33,9 +33,22 @@ export const SocialProof = () => {
           </p>
         </FadeIn>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <FadeIn delay={0.1} className="mt-16 max-w-4xl mx-auto">
+          <div className="bg-white p-10 md:p-14 rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-slate-100 relative text-center">
+            <Quote className="h-12 w-12 text-brand-gold/20 absolute top-8 left-1/2 -translate-x-1/2" />
+            <p className="text-xl md:text-2xl text-slate-700 leading-relaxed font-[Playfair_Display,serif] italic mb-8 relative z-10 pt-8">
+              "Professor Adriano foi meu mentor desde cedo. Tive a oportunidade de trabalhar com ele, onde ele me ensinou a viver uma vida com mais propósito e coerência. Seus livros me ajudaram e me ajudam até hoje."
+            </p>
+            <div>
+              <div className="font-bold text-lg text-slate-900">Darlan Rocha</div>
+              <div className="text-sm font-medium text-brand-gold mt-1">Coach em Desenvolvimento Humano</div>
+            </div>
+          </div>
+        </FadeIn>
+
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, i) => (
-            <FadeIn key={i} delay={0.1 * (i + 1)} className="flex">
+            <FadeIn key={i} delay={0.2 + (0.1 * i)} className="flex">
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col h-full relative">
                 <Quote className="h-8 w-8 text-brand-gold/30 absolute top-8 left-8" />
                 <p className="text-slate-600 leading-relaxed relative z-10 pt-8 flex-grow">
