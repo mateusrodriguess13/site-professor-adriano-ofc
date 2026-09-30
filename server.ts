@@ -55,7 +55,7 @@ async function startServer() {
     
     res.json({ 
       success: true, 
-      link: 'https://drive.google.com/file/d/1HGPGnWslY2e2oDf-DJEn8As1qG_MThyj/view' 
+      link: '/ebook-proposito.pdf'
     });
   });
 

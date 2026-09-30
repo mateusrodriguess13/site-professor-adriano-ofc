@@ -214,7 +214,7 @@ export const LeadCapture = () => {
                 </p>
                 
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1HGPGnWslY2e2oDf-DJEn8As1qG_MThyj"
+                  href="/ebook-proposito.pdf"
                   download="ebook-proposito.pdf"
                   className="inline-flex justify-center items-center gap-2 bg-slate-900 text-white rounded-xl w-full px-6 py-4 font-semibold text-lg hover:bg-slate-800 transition-all shadow-lg hover:shadow-xl group"
                 >
